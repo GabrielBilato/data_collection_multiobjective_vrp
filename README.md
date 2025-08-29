@@ -1,2 +1,2 @@
-# data_collection_multiobjective_vrp
-This repository provides access to data collected for the study of multi-objective optimization, with a focus on economic, environmental, and social dimensions.
+# This repository provides access to data collected for the study of multi-objective optimization
+The study develops a mathematical model for vehicle routing in a company seeking to minimize logistics costs, greenhouse gas emissions, and accident risks. The problem considers a heterogeneous fleet of vehicles with different fuel types and routes characterized by varying accident risks due to highway infrastructure. Accordingly, this repository provides access to data not included in the paper manuscript. The following links indicate the sources from which the data were obtained:

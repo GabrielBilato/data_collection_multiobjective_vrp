@@ -6,3 +6,6 @@ The study develops a mathematical model for vehicle routing in a company seeking
 - DER-SP_data.xlsx: This data will be also essential for assessing accident risks as it contains informations related characteristics and heavy vehicle flows of all roads of the problem. This information were obtained from Department of Roads and Highways of the State of Sao Paulo (DER-SP) (www.der.sp.gov.br/WebSite/MalhaRodoviaria/PesquisaRodovias.aspx);
 - Distances.xlsx: The distances of each arc were obtained from google maps;
 - Risk_calculated.xlsx: The risk costs of each arc is presented in this document. These costs were estimated using the statistical approach from the Bilato et al. (2023) and Monte Carlo simulation.
+
+Reference:
+Bilato, G. A.; Rocco, C. D.; Azevedo, A. T. BI-OBJECTIVE APPROACHES TO DEAL WITH ACCIDENT RISK AND LOGISTIC COSTS IN VEHICLE ROUTING PROBLEMS, Pesquisa Operacional, 2023.

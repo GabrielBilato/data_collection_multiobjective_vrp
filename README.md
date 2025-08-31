@@ -1,11 +1,15 @@
 # This repository provides access to data collected for a multi-objective vehicle routing problem study
-The study develops a mathematical model for vehicle routing in a company seeking to minimize logistics costs, greenhouse gas emissions, and accident risks. The problem considers a heterogeneous fleet of vehicles with different fuel types and routes characterized by varying accident risks due to highway infrastructure. Accordingly, this repository provides access to data not included in the paper manuscript. The descriptions of each document above are explained below:
+This dataset contains parameters used in a multi-objective optimization study of a vehicle routing problem (VRP) that seeks to minimize logistics costs, greenhouse gas emissions, and accident risks. The study is based on a real-world scenario of a hypothetical retail company with a central warehouse in the state of São Paulo, Brazil. The company’s fleet must deliver goods to stores located in nearby cities.
 
-- arc_description.xlsx: This database specifies the roads that form each arc of the problem, along with the corresponding travel distance. Each road is assigned a unique code, and sheet 1 details the roads included in each arc. This information is essential for determining the cost-risks associated with each arc;
-- CNT_data.xlsx: This data will be essential for assessing accident risks in relation to road characteristics. For instance, it shows that single-lane two-way road carry a higher risk, as they are associated with elevated fatality rates. This information were obtained from National Transport Confederation (CNT) (https://cnt.org.br/acidentes-rodoviarios-caminhoes);
-- DER-SP_data.xlsx: This data will be also essential for assessing accident risks as it contains informations related characteristics and heavy vehicle flows of all roads of the problem. This information were obtained from Department of Roads and Highways of the State of Sao Paulo (DER-SP) (www.der.sp.gov.br/WebSite/MalhaRodoviaria/PesquisaRodovias.aspx);
-- Distances.xlsx: The distances of each arc were obtained from google maps;
-- Risk_calculated.xlsx: The risk costs of each arc is presented in this document. These costs were estimated using the statistical approach from the Bilato et al. (2023) and Monte Carlo simulation.
+In addition to road distances, the dataset provides inputs for estimating accident risk costs, calculated using the statistical methodology of Bilato et al. (2023) with Monte Carlo simulation.
 
-Reference:
-Bilato, G. A.; Rocco, C. D.; Azevedo, A. T. BI-OBJECTIVE APPROACHES TO DEAL WITH ACCIDENT RISK AND LOGISTIC COSTS IN VEHICLE ROUTING PROBLEMS, Pesquisa Operacional, 2023.
+The database consists of the following files:
+
+- arc_description.xlsx – Defines the arcs of the routing problem, specifying the roads included in each arc and their corresponding travel distances. Each road has a unique code, and Sheet 1 lists the roads that compose each arc.
+- CNT_data.xlsx – Contains accident risk factors associated with road characteristics. For example, it shows that Single-lane two-way road present higher fatality risks. Data were obtained from the National Transport Confederation (CNT).
+- DER-SP_data.xlsx – Provides additional road information, including characteristics and heavy vehicle flows for all roads in the problem instance. Data were sourced from the Department of Roads and Highways of the State of São Paulo (DER-SP).
+- Distances.xlsx – Contains the road distances between arcs, as obtained from Google Maps.
+- Risk_calculated.xlsx – Presents the estimated accident risk costs for each arc, derived using the methodology of Bilato et al. (2023) and Monte Carlo simulation.
+
+Reference
+Bilato, G. A.; Rocco, C. D.; Azevedo, A. T. Bi-objective approaches to deal with accident risk and logistic costs in vehicle routing problems. Pesquisa Operacional, 2023.
